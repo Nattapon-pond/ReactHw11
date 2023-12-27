@@ -7,49 +7,22 @@
 .suminfo {
   text-align: center;
 }
-.suminfo button {
-  padding: 5px 15px;
-  height: 50px;
-  width: 150px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  background-color: #000000;
-  color: rgb(248, 245, 245);
-  border-radius: 5px;
-}
+
 .counter {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 350px;
-  margin: 20px auto;
+  align-items: baseline;
+  height: 80px;
+  width: 300px;
+  margin: 1rem auto;
+  text-align: center;
   padding: 10px;
-  border: 1px solid #1f1e1e;
-  border-radius: 5px;
-  background-color: #fff9f9;
+  border: 1px dashed ;
 }
 
-.counter button {
-  padding: 13px 25px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  background-color: #eee;
-  border-radius: 3px;
-}
-
-.counter h3 {
+.counter > * {
+  height: 100%;
+  flex: 1;
   font-size: 24px;
-  margin: 0;
-}
-
-.counter button:hover {
-  background-color: #ff0000b4;
-}
-
-.counter button:active {
-  transform: translateY(1px);
 }
 
 .text-center {
